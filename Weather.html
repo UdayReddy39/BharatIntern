@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Application</title>
+  <link rel="stylesheet" href="Weather.css">
+  <script src="Weather.js" defer></script>
+</head>
+<body>
+  <div class="main-container" id="main-containerID">
+    <div class="data-container" id="data-containerID">
+      <div class="overlay hidden">
+        <h4 class="overlay-text">Enter Loction to Fetch Data</h4>
+      </div>
+      <div class=" hidden2">
+        <img class="Weather-Icon" id="Weather-IconID" src="Images/weather-icon.png" alt="Weather-icon" >
+        <div class="card-containeer-data" id="card-containeer-dataID">
+          <div class="card-temp"> <h6 class="card-temp-value">--</h6>
+            <div class="extra-data-sup"><sup>o</sup></div>
+            <div class="extra-data-c">C</div>
+          </div>
+          <div class="card-container-right">
+            <h3 class="card-temp-condition">--</h3>
+            <h3 class="card-temp-humidity">--</h3>
+            <h3 class="card-temp-time">--</h3>
+            <h3 class="card-temp-date">--</h3>
+            <h3 class="card-temp-location">--</h3>
+            <button class="Complete-btn" title="Not Allowed For Now" id="Complete-btnID">See Full Forcast</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="search-container" id="search-containerID">
+      <input type="text" class="input-field" id="input-fieldID" placeholder="Enter the City Name">
+      <button class="input-search">Search</button>
+    </div>
+  </div>
+</body>
+</html>
